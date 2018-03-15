@@ -1,0 +1,12 @@
+h1 ('Simple groovy template for unit testing')
+h2 ("sub-header - ${DATE.full_date}")
+newLine()
+p ("one")
+p ("w${DATE.week_num} - ${DATE.day}")
+newLine()
+h2 ("Top Title - Week ${DATE.week_num}")
+newLine()
+h2 ("Medium Title - Week ${DATE.week_num}")
+newLine()
+
+p ("The End")

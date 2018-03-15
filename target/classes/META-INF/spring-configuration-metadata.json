@@ -1,0 +1,92 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.justin.evernote.ConfigProperties",
+      "name": "ConfigProperties",
+      "type": "com.justin.evernote.ConfigProperties"
+    },
+    {
+      "sourceType": "com.justin.evernote.client.GenerateEvernoteBean",
+      "name": "GenerateEvernoteBean",
+      "type": "com.justin.evernote.client.GenerateEvernoteBean"
+    },
+    {
+      "sourceType": "com.justin.evernote.generator.GroovyTemplateNoteGenerator",
+      "name": "GroovyTemplateNoteGenerator",
+      "type": "com.justin.evernote.generator.GroovyTemplateNoteGenerator"
+    },
+    {
+      "sourceType": "com.justin.evernote.generator.MarkdownTemplateNoteGenerator",
+      "name": "MarkdownTemplateNoteGenerator",
+      "type": "com.justin.evernote.generator.MarkdownTemplateNoteGenerator"
+    },
+    {
+      "sourceType": "com.justin.evernote.dataSources.TextLinesFromFileDataSource",
+      "name": "TextLinesFromFileDataSource",
+      "type": "com.justin.evernote.dataSources.TextLinesFromFileDataSource"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.justin.evernote.ConfigProperties",
+      "name": "ConfigProperties.auth-token",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.justin.evernote.ConfigProperties",
+      "name": "ConfigProperties.data-source-key-values",
+      "type": "java.util.Map<java.lang.String,java.lang.Object>"
+    },
+    {
+      "sourceType": "com.justin.evernote.ConfigProperties",
+      "name": "ConfigProperties.data-sources",
+      "type": "java.util.Set<com.justin.evernote.dataSources.IDataSource>"
+    },
+    {
+      "sourceType": "com.justin.evernote.ConfigProperties",
+      "name": "ConfigProperties.developer-token",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.justin.evernote.generator.GroovyTemplateNoteGenerator",
+      "name": "GroovyTemplateNoteGenerator.template-file-name",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.justin.evernote.generator.GroovyTemplateNoteGenerator",
+      "name": "GroovyTemplateNoteGenerator.template-tags-file-name",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.justin.evernote.generator.GroovyTemplateNoteGenerator",
+      "name": "GroovyTemplateNoteGenerator.template-title-file-name",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.justin.evernote.generator.MarkdownTemplateNoteGenerator",
+      "name": "MarkdownTemplateNoteGenerator.template-name",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.justin.evernote.dataSources.TextLinesFromFileDataSource",
+      "name": "TextLinesFromFileDataSource.data-map",
+      "type": "java.util.Map<java.lang.String,java.lang.Object>"
+    },
+    {
+      "sourceType": "com.justin.evernote.dataSources.TextLinesFromFileDataSource",
+      "name": "TextLinesFromFileDataSource.directory-name",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.justin.evernote.dataSources.TextLinesFromFileDataSource",
+      "name": "TextLinesFromFileDataSource.file-name-suffix",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.justin.evernote.dataSources.TextLinesFromFileDataSource",
+      "name": "TextLinesFromFileDataSource.text-file-names",
+      "type": "java.util.List<java.lang.String>"
+    }
+  ]
+}

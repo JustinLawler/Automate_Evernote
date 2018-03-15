@@ -1,0 +1,8 @@
+/Users/justinlawler/eclipse-workspace/Automate_Evernote/src/main/java/com/justin/evernote/ConfigProperties.java
+/Users/justinlawler/eclipse-workspace/Automate_Evernote/src/main/java/com/justin/evernote/GenerateEvernoteBean.java
+/Users/justinlawler/eclipse-workspace/Automate_Evernote/src/main/java/com/justin/evernote/generator/GroovyTemplateNoteGenerator.java
+/Users/justinlawler/eclipse-workspace/Automate_Evernote/src/main/java/com/justin/evernote/test/TestingEvernoteAPI.java
+/Users/justinlawler/eclipse-workspace/Automate_Evernote/src/main/java/com/justin/evernote/generator/MarkdownTemplateNoteGenerator.java
+/Users/justinlawler/eclipse-workspace/Automate_Evernote/src/main/java/com/justin/evernote/test/TestingParsingMarkdown.java
+/Users/justinlawler/eclipse-workspace/Automate_Evernote/src/main/java/com/justin/evernote/generator/INoteGenerator.java
+/Users/justinlawler/eclipse-workspace/Automate_Evernote/src/main/java/com/justin/evernote/SpringBootConsoleApplication.java
